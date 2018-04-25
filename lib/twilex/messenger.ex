@@ -4,10 +4,10 @@ defmodule Twilex.Messenger do
 
   def create(from, to, body, media \\ "") do
     {:ok, response} = HTTPoison.post(
-      request_url,
+      request_url(),
       {:form, ["From": from, "To": to, "Body": body, "Media": media]},
       [],
-      [ hackney: auth_key ])
+      [ hackney: auth_key() ])
 
     response.body
     |> process_response_body

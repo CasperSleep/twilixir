@@ -1,8 +1,8 @@
-defmodule Twilex.Mixfile do
+defmodule Twilixir.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :twilex,
+    [app: :twilixir,
      version: "0.0.2",
      elixir: "~> 1.2",
      description: "A Twilio client for elixir.",
@@ -17,7 +17,7 @@ defmodule Twilex.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger, :httpoison],
-     mod: {Twilex, []}]
+     mod: {Twilixir, []}]
   end
 
   # Dependencies can be Hex packages:
@@ -37,6 +37,6 @@ defmodule Twilex.Mixfile do
   defp package do
     [licenses: ["MIT"],
      maintainers: ["Yinghai Zhao"],
-     links: %{"GitHub" => "https://github.com/hisea/twilex"}]
+     links: %{"GitHub" => "https://github.com/hisea/twilixir"}]
   end
 end

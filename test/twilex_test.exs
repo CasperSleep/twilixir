@@ -1,5 +1,5 @@
-defmodule TwilexTest do
+defmodule TwilixirTest do
   use ExUnit.Case
-  doctest Twilex
+  doctest Twilixir
 
 end

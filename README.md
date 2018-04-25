@@ -1,4 +1,4 @@
-# Twilex
+# Twilex [![Build Status](https://www.travis-ci.org/CasperSleep/twilixer.svg?branch=master)](https://www.travis-ci.org/CasperSleep/twilixer)
 
 **Twilex is an Elixir Client to send SMS/MMS using Twilio. **
 

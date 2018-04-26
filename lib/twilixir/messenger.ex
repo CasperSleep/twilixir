@@ -1,4 +1,4 @@
-defmodule Twilex.Messenger do
+defmodule Twilixir.Messenger do
   @endpoint "https://api.twilio.com/2010-04-01/Accounts/"
 
 
@@ -14,13 +14,13 @@ defmodule Twilex.Messenger do
   end
 
   def auth_key do
-    sid = Application.get_env(:twilex, :sid)
-    token = Application.get_env(:twilex, :token)
+    sid = Application.get_env(:twilixir, :sid)
+    token = Application.get_env(:twilixir, :token)
     [basic_auth: {sid, token}]
   end
 
   def request_url do
-    sid = Application.get_env(:twilex, :sid)
+    sid = Application.get_env(:twilixir, :sid)
 
     "#{@endpoint}#{sid}/Messages.json"
   end

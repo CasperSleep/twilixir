@@ -10,6 +10,7 @@ Twilixir is an Elixir Client to send SMS/MMS using Twilio.
 def deps do
   [{:twilixir, "~> 0.0.1"}]
 end
+```
 
 2. Ensure twilixir is started before your application:
 

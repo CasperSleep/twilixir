@@ -3,7 +3,7 @@ defmodule Twilixir.Mixfile do
 
   def project do
     [app: :twilixir,
-     version: "0.0.2",
+     version: "1.0.0",
      elixir: "~> 1.2",
      description: "A Twilio client for elixir.",
      build_embedded: Mix.env == :prod,
@@ -36,7 +36,7 @@ defmodule Twilixir.Mixfile do
 
   defp package do
     [licenses: ["MIT"],
-     maintainers: ["Yinghai Zhao"],
-     links: %{"GitHub" => "https://github.com/hisea/twilixir"}]
+     maintainers: ["Carsten Zimmermann"],
+     links: %{"GitHub" => "https://github.com/CasperSleep/twilixir"}]
   end
 end

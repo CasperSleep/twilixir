@@ -1,4 +1,4 @@
-# Twilixir [![Build Status](https://www.travis-ci.org/CasperSleep/twilixer.svg?branch=master)](https://www.travis-ci.org/CasperSleep/twilixer)
+# Twilixir [![Build Status](https://www.travis-ci.org/CasperSleep/twilixir.svg?branch=master)](https://www.travis-ci.org/CasperSleep/twilixir)
 
 Twilixir is an Elixir Client to send SMS/MMS using Twilio.
 
